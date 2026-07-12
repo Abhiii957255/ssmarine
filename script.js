@@ -4,31 +4,31 @@ function showGallery(category) {
 
     if (category === "interior") {
         for (let i = 1; i <= 5; i++) {
-            html += `<img src="images/Marine-Interior/Interior-${i}.jpg" alt="Interior ${i}" onclick="openLightbox(this.src)">`;
+            html += `<img src="Interior-${i}.jpg" alt="Interior ${i}" onclick="openLightbox(this.src)">`;
         }
     }
 
     if (category === "insulation") {
         for (let i = 1; i <= 5; i++) {
-            html += `<img src="images/Insulation/Insulation-${i}.jpg" alt="Insulation ${i}" onclick="openLightbox(this.src)">`;
+            html += `<img src="Insulation-${i}.jpg" alt="Insulation ${i}" onclick="openLightbox(this.src)">`;
         }
     }
 
     if (category === "accommodation") {
         for (let i = 1; i <= 5; i++) {
-            html += `<img src="images/Accomodation/Accomodation-${i}.jpg" alt="Accommodation ${i}" onclick="openLightbox(this.src)">`;
+            html += `<img src="Accomodation-${i}.jpg" alt="Accommodation ${i}" onclick="openLightbox(this.src)">`;
         }
     }
 
     if (category === "furniture") {
         for (let i = 1; i <= 5; i++) {
-            html += `<img src="images/Furniture/Furniture-${i}.jpg" alt="Furniture ${i}" onclick="openLightbox(this.src)">`;
+            html += `<img src="Furniture-${i}.jpg" alt="Furniture ${i}" onclick="openLightbox(this.src)">`;
         }
     }
 
     if (category === "building") {
         for (let i = 1; i <= 5; i++) {
-            html += `<img src="images/Building/Building-${i}.jpg" alt="Building ${i}" onclick="openLightbox(this.src)">`;
+            html += `<img src="Building-${i}.jpg" alt="Building ${i}" onclick="openLightbox(this.src)">`;
         }
     }
 
